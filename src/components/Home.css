@@ -1,0 +1,165 @@
+.homeCon{
+display: flex;
+position: relative;
+
+left:400px;
+top:-1000px;
+transition: 1s all ease;
+
+}
+.homeDown{
+    top:100px;
+    display: flex;
+position: relative;
+
+left:400px;
+
+
+transition: 1s all ease;
+}
+
+
+
+.homeContent{
+    width: 600px;
+}
+
+.myImg{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.myImgCon{
+    width: 425px;
+    height: 425px;
+    border-radius: 50%;
+    border: 15px solid rgb(255, 0, 0);
+}
+
+
+.cv{
+    background-color: blue;
+    text-shadow:0 0 10px red,
+                0 0 10px blue,
+                0 0 20px green;
+    animation:colorblue 1s linear infinite;
+width: 200px;
+color:aliceblue;
+font-weight: 666;
+border-radius: 20px;
+text-align: center;
+padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:400px) {
+    
+
+.homeContent h1{
+color:red;
+font-weight: 999;
+}
+.homeContent p{
+font-weight: 888;
+color:blue;
+}
+.homeContent .passion{
+font-weight: 666;
+color:goldenrod
+}
+
+    .homeCon,.homeDown{
+width:400px;
+position: relative;
+left:-10px;
+display:flex;
+margin-top: -100px;
+flex-direction: column;
+    }
+p{
+    width: 350px;
+}
+
+.myImgCon{
+    width:280px;
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.myImg{
+    width: 260px;
+    height: 260px;
+}
+
+.homeContent{
+    margin-left: 20px;
+    margin-top:20px ;
+}
+
+
+.cv{
+    background-color: blue;
+    text-shadow:0 0 10px red,
+                0 0 10px blue,
+                0 0 20px green;
+    animation:colorblue 1s linear infinite;
+width: 200px;
+color:aliceblue;
+font-weight: 666;
+border-radius: 20px;
+text-align: center;
+padding: 10px;
+
+}
+@keyframes animation {
+    100%{
+        filter:hue-rotate(360deg);
+    }
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

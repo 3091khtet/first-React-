@@ -1,0 +1,330 @@
+.close,.menu{
+    font-size: 4rem;
+    font-weight: 444;
+    color:aliceblue
+}
+
+header li:hover{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.home{
+color:rgb(252, 164, 0)
+}
+.about{
+color: rgb(81, 255, 0);
+}
+
+.skill{
+color: crimson;
+}
+.contact{
+color: darkmagenta;
+}
+
+
+header li{
+  list-style: none;
+  cursor: grab;
+  transition: .2s all ease;
+
+
+}
+header{
+    margin-left: 200px;
+}
+.navbar li{
+    margin-right: 50px;
+    font-weight: 777;
+
+}
+
+.menu{
+    display: none;
+}
+
+.upArrow{
+    font-size: 4rem;
+    color:aqua;
+    position: absolute;
+    right:10px;
+    bottom:-600px;
+    animation: upArrow 1s linear infinite;
+
+}
+.disappear{
+    left:200px;
+}
+.downArrow{
+    font-size: 4rem;
+    color:crimson;
+    animation:downArrow 1s infinite alternate;
+}
+
+body{
+    height:2000px
+}
+
+@keyframes  downArrow{
+    0%{
+        transform: rotate(30deg);
+    }
+
+    50%{
+        transform: rotate(60deg);
+    }
+
+
+    100%{
+        transform: rotate(180deg);
+    }
+
+}
+
+@keyframes upArrow {
+    0%{
+        transform: translateY(-30px);
+    }
+    20%{
+        transform: translateY(-50px) scale(2);
+    }
+}
+
+.content{
+    display: none;
+}
+.activeContent{
+    display: block;
+}
+
+
+
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+.skill{
+    margin-top: 300px;
+}
+
+.htmlGp,.reactGp,.responsiveGp{
+    display: flex;
+}
+
+.bar{
+    width:400px;
+    height:10px;
+    background-color: black;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+
+.bar span:nth-child(1){
+    float:left;
+    background-color:red ;
+}
+
+.bar span:nth-child(2){
+    float:left;
+    background-color:rgb(0, 8, 255) ;
+}
+
+.bar span:nth-child(3){
+    float:left;
+    background-color:rgb(255, 247, 0) ;
+}
+
+.bar span:nth-child(4){
+    float:left;
+    background-color:rgb(10, 108, 169) ;
+}
+
+.bar span:nth-child(5){
+    float:left;
+    background-color:rgb(212, 0, 255) ;
+}
+
+.bar span:nth-child(6){
+    float:left;
+    background-color:rgb(0, 255, 255) ;
+}
+
+
+
+.html{
+    width:90%;
+    animation: html 3s linear ;
+}
+.css{
+    width:90%;
+    animation: css 3s linear ;
+}
+.js{
+    width:90%;
+    animation: js 3s linear ;
+}
+.jquery{
+    width:30%;
+    animation: jquery 3s linear ;
+}
+.bs{
+    width:90%;
+    animation: bs 3s linear ;
+}
+.react{
+    width:90%;
+    animation: react 3s linear ;
+}
+
+
+
+@keyframes html {
+    0%{
+        width:0;
+    }
+    100%{
+        width:90%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:400px){
+
+.downArrow{
+    font-size: 4rem;
+    color:crimson;
+    position: absolute;
+    top:30px;
+}
+
+
+
+
+header li{
+    margin-left:50px;
+    display: flex;
+  
+   
+}
+i{
+    margin-left: 40px;
+    font-size:2rem
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+    justify-content: center;
+    background-color: rgb(73, 63, 63);
+    top:40px;
+ width: 400px !important;
+ height: 400px!important;
+z-index:444;
+opacity: 0;
+    transition:.3s all ease-in-out;
+    padding:20px;
+right:200px;
+border-radius: 20px;
+}
+.move{
+opacity: 1;
+}
+
+
+.navbar{
+    height: 100px;
+}
+
+
+.menu{
+    display: block;
+    position: absolute;
+    right: 3px;
+    top:0px
+}
+.body{
+    background:linear-gradient(to right,green,blue);
+    height: 400vh;
+}
+
+
+
+
+.bodyContent .content{
+
+width:800px;
+display: none;
+
+}
+.activeContent{
+display:block;
+}
+.bodyContent .content:first-child{
+    background-color: blue;
+}
+.bodyContent .content:nth-child(2){
+    background-color: brown;
+}
+.bodyContent .content:nth-child(3){
+    background-color: rgb(81, 165, 42);
+}
+.bodyContent .content:nth-child(4){
+    background-color: rgb(245, 13, 152);
+}
+
+.content p{
+    font-size:1.5rem;
+}
+
+
+.backDrop{
+    background-color:#7f7983;
+    height: 400vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

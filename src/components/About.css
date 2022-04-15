@@ -1,0 +1,56 @@
+.aboutCon{
+    height: 500px;
+    background-color: antiquewhite;
+    top:-1500px;
+    position: relative;
+    width:1200px;
+    left:310px;
+transition: 1s all ease;
+z-index: 700;
+}
+.aboutDown{
+    height: 500px;
+    background-color: antiquewhite;
+    top:-300px;
+    position: relative;
+    width:1200px;
+    left:310px;
+transition: 1s all ease;
+z-index: 700;
+}
+
+
+.aboutCon h1{
+    position: relative;
+    left:300px;
+  
+}
+
+
+
+@media (max-width:400px) {
+    .aboutCon,.aboutDown{
+width: 350px;
+margin-left:-300px;
+margin-top:-250px;
+height: 100%;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

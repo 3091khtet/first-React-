@@ -1,0 +1,41 @@
+.serviceCon{
+    height: 500px;
+    background-color: rgb(2, 210, 252);
+    position: relative;
+    width:1200px;
+transition: 1s all ease;
+left:320px;
+opacity: 0;
+}
+
+
+.serviceLeft{
+    height: 500px;
+    background-color: rgb(2, 227, 252);
+    position: relative;
+    width:1200px;
+transition: 1s all ease;
+top:-1300px;
+opacity: 1;
+
+left:320px;
+}
+
+
+@media (max-width:400px){
+
+.serviceCon,.serviceLeft{
+    height: 700px;
+    width: 370px;
+    margin-left: -310px;
+    margin-top: -200px;
+}
+
+
+
+
+
+
+
+}
+

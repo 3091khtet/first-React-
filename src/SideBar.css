@@ -1,0 +1,290 @@
+.sideBar{
+    background-color:  #0c3f71 ;
+    height:100vh;
+    width: 300px;
+    position: fixed;
+    z-index:777;
+}
+
+.sideBarTab{
+    background-color: aliceblue;
+width: inherit;
+height:350px ;
+position: relative;
+top:100px;
+text-align: center;
+display: flex;
+z-index: 999;
+flex-direction: column;
+
+
+}
+
+.sideBarTab li{
+    font-size:2rem;
+list-style: none;
+padding-top: 10px;
+margin-top: 10px;
+user-select: none;
+cursor: pointer;
+
+}
+
+.sideBarTab li:before{
+    content: "";
+    position:absolute;
+    background-color: aqua;
+    height: 5px;
+    left:0;
+    width: 0;
+    margin-top: 50px;
+    margin-left: -200px;
+    transition: .6s all ease;
+}
+.sideBarTab li:hover::before{
+    width:100px;
+    left:100%;
+}
+
+
+
+
+.ri-sun-foggy-line{
+    font-size: 3rem;
+    color: yellow;
+    font-weight: 999;
+    z-index: 999;
+   position: relative;
+   top:-300px;
+   margin: 0 10px;
+}
+.ri-moon-clear-fill{
+    font-size: 3rem;
+    color: rgb(245, 244, 241);
+    z-index: 999;
+   position: relative;
+   top:-300px;
+   margin:0 10px;
+}
+
+.sun{
+color:rgb(238, 238, 234);
+font-weight: 999;
+}
+.moon{
+color:rgb(247, 11, 50);
+font-weight: 900;
+}
+
+.darkMode{
+background-color: rgb(32, 204, 144);
+width:80px;
+height: 40px;
+top:-290px;
+position: relative;
+border-radius: 20px;
+
+}
+
+
+.darkContent{
+    margin-left: 40px;
+    position: relative;
+  bottom: 40px;
+}
+.darkMode .btn{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+background-color: azure;
+    transition: 1s all ease;
+
+}
+.moveBtn{
+    position:relative;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    left:40px;
+    background-color: blue;
+    transition: 1s all ease;
+}
+.night{
+    background-color: black;
+    z-index: 999;
+    height: 100%;
+    width:1600px;
+    transition: 1s all ease;
+    position: fixed;
+}
+
+.white{
+    background-color: rgb(250, 248, 248);
+    height: 100%;
+    z-index: 999;
+    width: 1600px;
+    transition: 1s all ease;
+    position: fixed;
+}
+
+.burger{
+    height: 80px;
+    width: 90px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:100px;
+    display: none;
+}
+
+
+.one{
+background-color: crimson;
+height: 30px;
+width: 80px;
+margin: 7px auto;
+border-radius: 10px;
+}
+
+.two{
+    background-color: rgb(20, 220, 53);
+    height: 30px;
+    width: 80px;
+    margin: 7px auto;
+    border-radius: 10px;
+    }
+
+.three{
+    background-color: rgb(20, 53, 220);
+    height: 30px;
+    width: 80px;
+    margin: 7px auto;
+    border-radius: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:400px) {
+    
+body{
+    height: 3000px;
+}
+
+.burger{
+    height: 70px;
+    width: 90px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:280px;
+    z-index: 888;
+    display: block;
+
+}
+
+.one{
+   
+    height: 10px;
+    width: 80px;
+    margin: 10px auto;
+  transition: .4s all ease;
+    }
+    
+    .two{
+        
+        height: 10px;
+        width: 80px;
+        margin: 10px auto;
+        transition: .4s all ease;
+        }
+    
+    .three{
+ 
+        height: 10px;
+        width: 80px;
+        margin: 10px auto;
+        transition: .4s all ease;
+        }
+
+.sideBar{
+    width:400px;
+    transition: .5s all ease;
+    left:-500px
+
+}
+
+.sideBarMove{
+    left:0px;
+}
+.oneActive{
+transform: rotate(45deg) translateY(15px) translateX(10px);
+
+}
+.twoActive{
+background-color: transparent;
+transform: translateX(-300px);
+}
+.threeActive{
+transform: rotate(-45deg) translateY(-20px) translateX(10px);
+}
+
+.sideBarTab li:before{
+    content: "";
+    position:absolute;
+    background-color: aqua;
+    height: 5px;
+    left:0;
+    width: 0;
+    margin-top: 50px;
+    margin-left: -250px;
+    transition: .6s all ease;
+}
+.sideBarTab li:hover::before{
+    width:100px;
+    left:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+.skillCon{
+    height: 500px;
+    background-color: rgb(2, 252, 81);
+    position: relative;
+    width:1200px;
+transition: 1s all ease;
+top:-1600px;
+left:320px;
+
+}
+.skillDown{
+    height:500px ;
+    background-color: rgb(2, 252, 81);
+    position: relative;
+    width:1200px;
+transition: 1s all ease;
+top:-800px;
+left:320px;
+
+}
+
+
+
+
+
+@media (max-width:400px) {
+    
+.skillCon,.skillDown{
+width: 350px;
+height:700px;
+margin-left: -310px;
+margin-top: -300px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
