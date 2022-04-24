@@ -12,12 +12,9 @@ function App() {
 
   return (
     <>
-
-
-
 <Switch>
-  <Route path ="/" exact component={SideBar}   ></Route>
-  <Route path="/contact"  component={Contact}></Route>
+  <Route path="/" exact component={SideBar}   ></Route>
+  <Route path="/contact" component={Contact}   ></Route>
 </Switch>
 
 

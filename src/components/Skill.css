@@ -1,23 +1,364 @@
 .skillCon{
-    height: 500px;
+overflow-y: scroll;
     background-color: rgb(2, 252, 81);
     position: relative;
     width:1200px;
 transition: 1s all ease;
-top:-1600px;
+top:-2200px;
 left:320px;
+background-color: red;
 
 }
 .skillDown{
-    height:500px ;
-    background-color: rgb(2, 252, 81);
+ height:3000px;
     position: relative;
-    width:1200px;
+    width:1230px;
 transition: 1s all ease;
-top:-800px;
-left:320px;
+top:-500px;
+left:300px;
+background-color: bisque;
+z-index: -10;
+overflow-y: scroll;
+}
+
+
+.secCol{
+    position:relative;
+    top:-20px;
+}
+
+
+
+.skillDown::-webkit-scrollbar{
+    width:10px;
+}
+
+
+.skillDown::-webkit-scrollbar-track{
+    background-color: aqua;
+}
+
+
+.skillDown::-webkit-scrollbar-thumb{
+    background-color: brown;
+}
+
+
+
+
+
+/* skill start*/
+
+
+.imgCon{
+    width: 550px;
+    height:400px;
+
+position: absolute;
+top:700px;
+left:50px;
+display:flex;
+flex-direction: row;
+justify-content: center;
+  align-items: center;  
+}
+.imgCon img{
+    border-radius: 40px;
+width:600px;
+height:400px;
+position: relative;
+float: center;
+}
+
+.carousel-indicators button{
+   position: relative;
+
+    z-index:666;
+}
+
+.carousel-indicators{
+    position: relative;
+    top:30px;  
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    border-radius: 50%;
+}
+
+
+
+#skillBar{
+position: relative;
+top:80px;
+left:10px;
 
 }
+
+.bar{
+    width: 500px;
+    border: 1px solid rgb(247, 240, 240);
+    height: 20px;
+    margin-left:30px;
+}
+
+
+ img{
+width: 60px;
+height: 60px;
+
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    margin:30px auto;
+}
+
+
+/* skill end*/
+
+.js{
+    background-color: rgb(255, 251, 5);
+    width: 300px;
+
+    height: inherit;
+    animation: js 4s linear infinite;
+}
+
+
+
+.java{
+    background-color: rgb(238, 140, 12);
+    width: 300px;
+    height: inherit;
+    left:0;
+    animation: java 9s linear infinite;
+}
+
+
+
+
+.node{
+    background-color: rgb(3, 153, 23);
+    width: 300px;
+    height: inherit;
+    left:0;
+    animation: node 8s linear infinite;
+}
+
+
+
+.bs{
+    background-color: rgb(153, 3, 141);
+    width: 300px;
+    height: inherit;
+    left:0;
+    animation:bs 7s linear infinite;
+}
+
+
+
+
+
+.react{
+    background-color: rgb(0, 219, 248);
+    width: 300px;
+    height: inherit;
+ 
+    animation:react 6s linear infinite;
+}
+
+
+
+
+
+.html{
+    background:linear-gradient(to right, pink,red, blue,green);
+    width:80%;
+    height: inherit;
+    left:0;
+    animation: html 6s infinite;
+}
+
+
+
+
+.css{
+    background-color: rgb(48, 3, 153);
+    width: 300px;
+    height: inherit;
+    left:0;
+    animation:css 10s infinite;
+}
+
+
+
+
+
+.git{
+    background-color: rgb(153, 25, 3);
+    width: 300px;
+    left:0;
+    height: inherit;
+    animation:git 8s linear infinite ;
+}
+
+
+
+
+.flutter{
+    background:linear-gradient(to left,cyan ,red ,cyan);
+    width: 300px;
+    left:0px;
+    animation:flutter 14s linear infinite;
+    height: inherit;
+}
+
+
+
+@keyframes html{
+
+0%{
+    width: 0%;
+}
+
+    100%{
+width: 80%;
+
+    }
+}
+
+
+@keyframes css{
+
+    0%{
+        width: 0%;
+    }
+    
+        100%{
+    width: 80%;
+    
+        }
+    }
+    
+    
+    @keyframes js{
+
+        0%{
+            width: 0%;
+        }
+        
+            100%{
+        width: 80%;
+        
+            }
+        }
+        
+        
+        @keyframes react{
+
+            0%{
+                width: 0%;
+            }
+            
+                100%{
+            width: 50%;
+            
+                }
+            }
+            
+            
+             
+            @keyframes bs{
+
+                0%{
+                    width: 0%;
+                }
+                
+                    100%{
+                width: 80%;
+                
+                    }
+                }
+                
+                
+                @keyframes node{
+
+                    0%{
+                        width: 0%;
+                    }
+                    
+                        100%{
+                    width: 50%;
+                    
+                        }
+                    }
+                    
+                    
+                    @keyframes java{
+
+                        0%{
+                            width: 0%;
+                        }
+                        
+                            100%{
+                        width: 40%;
+                        
+                            }
+                        }
+                        
+                        @keyframes git{
+
+                            0%{
+                                width: 0%;
+                            }
+                            
+                                100%{
+                            width: 80%;
+                            
+                                }
+                            }
+                            
+                            
+                            
+
+
+
+
+
+                        @keyframes flutter{
+
+                            0%{
+                                width: 0%;
+                            }
+                            
+                                100%{
+                            width: 10%;
+                            
+                                }
+                            }
+                            
+                            
+                                                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -25,13 +366,60 @@ left:320px;
 
 @media (max-width:400px) {
     
-.skillCon,.skillDown{
+.skillCon{
 width: 350px;
-height:700px;
-margin-left: -310px;
-margin-top: -300px;
+
+position:relative;
+margin-top: -1300px;
+left:10px;
 }
 
+.skillDown{
+    width: 380px;
+position: relative;
+top:400px;
+left:10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#skillBarTwo{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    left: -10px;
+
+}
+#skillBarTwo .col .bar{
+width:100%;
+}
+.col{
+    background-color: black;
+    width:380px;
+}
+
+
+.imgCon{
+    width:370px;
+    height:300px;
+    top:1200px;
+    position: absolute;
+    left:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imgCon img{
+    width: 370px;
+    height:290px;
+    position:relative;
+}
+
+
+ 
 
 
 
